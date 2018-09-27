@@ -1,0 +1,24 @@
+body{
+  color: white;
+}
+#hero{
+  background: url(/assets/img/HeroBackground.png) no-repeat;
+  background-size: cover;
+  background-position: 0;
+}
+
+.navbar{
+  width: 100%;
+  background: none !important;
+
+  .btn{
+    background: white;
+  }
+}
+
+.member-button{
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background: var(--brandcyan);
+  color:  var(--brandblue);
+}
